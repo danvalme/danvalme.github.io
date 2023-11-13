@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+figcaption{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    padding: 20px;
+    font-weight: bold;
+}
+
+a:link{
+    color: seashell;
+}
+
+a:visited{
+    color: seashell;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    padding: 10px 0px 10px 10px;
+    background-color: black;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+}
+
+.navitems a{
+    padding: 10px;
+}
+
+.fill{
+    width: 100%;
+    height: 69px;
+}
+
+.fill2{
+    width: 100%;
+    height: 30px;
+}
+
+div.container1{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.mission{
+    background-image: url(../resources/Background.jpg);
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.text1,.text2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.text1{
+    background-color: black ;
+}
+
+
+
+div.container2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.tea{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgs{
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+
+div.container3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.locations{
+    display: flex;
+    background-image: url(../resources/locations.jpg);
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 1200px;
+}
+
+#loc{
+    position: relative;
+    top: 5px;
+}
+
+.boxes{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    margin: 20px;
+    opacity: 1;
+   
+}
+
+.footer{
+    width: 100%;
+}
+
+.contactInfo{
+    display: flex;
+    height: 170px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.copyright{
+    text-align: left;
+    margin: 25px 0 25px 20px;
+}
